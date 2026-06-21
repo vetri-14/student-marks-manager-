@@ -11,6 +11,11 @@ int main() {
 
     printf("Total = %d\n", sum);
     printf("Average = %.2f\n", sum / 5.0);
-
+    if(sum / 5.0 >= 90){
+        printf("Grade: A\n");
+    }
+    else{
+        printf("Grade: B\n");
+    }
     return 0;
 }
